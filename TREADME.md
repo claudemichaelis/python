@@ -1,6 +1,9 @@
-a=1
-b=' два'
+a=6.2
+b=6.2
 c='это тоже '
 d='символы!'
-text=(str(a)+b)
-print(text)
+six=6
+print(int(a)*int(b))
+
+print('у вас ' + str(a)+' хорошее настроение')
+
