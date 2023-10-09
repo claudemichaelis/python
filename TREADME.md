@@ -48,4 +48,91 @@ for i in range(0,12):
 for i in range(0,10):
     print(i + (i-1))
 
+print()
+
+a = ''
+for i in reversed(range(0, 11)):
+    a = a + str(i) + ', '
+a = a + 'поехали!'
+print(a)
+x = 6
+a = (x > 5)
+print(a)
+
+sad = 1
+if sad == 1:
+    print('штиль')
+else:
+    print('ничего')
+
+
+for god in range(101):
+    if god >= 100:
+        print(god, ' Yas')
+    elif god <=50:
+        print(god, 'ну не знаю')
+    else:
+        print(god, ' No')
+
+for ros in range(10):
+    if ros == 1:
+        print('А нам всеровно', ros, 'раз бегать')
+    elif god ==5:
+        print('А нам всеровно', ros, 'раз бегать больше')
+    else:
+        print('А мне все ровно')
+
+for gos in range(1,6):
+    if gos > 1:
+        print('А нам всеровно', gos, 'раз бегать')
+    elif god > 4:
+        print('А нам всеровно', gos, 'раз бегать больше')
+    else:
+        print('А мне все ровно')
+
+for ii in range(10):
+    if ii <=1:
+        print('Если', ii, "хорошо")
+    elif ii ==2 or ii == 3:
+        print('Если', ii, "не плохо")
+    elif ii >=4 and ii <= 5:
+        print('Если', ii, "не No плохо")
+    else:
+        print('пофиг')
+
+for a in range(5):
+    if a <=1:
+        print('yas')
+    elif a >=2 and a <=3:
+        print('or')
+    else:
+        print('No')
+
+for current_hour in range(0, 24):
+    print("На часах " + str(current_hour) + ":00.")
+
+    if current_hour >= 6 and current_hour <= 11:
+        print('Доброе утро!')
+    elif current_hour >= 12 and current_hour <= 17:
+        print('Добрый день!')
+    elif current_hour >= 18 and current_hour <= 22:
+        print('Добрый вечер!')
+    elif current_hour <= 5 or current_hour >= 23:
+        print('Доброй ночи!')
+
+for i in range(0,10):
+    if i == 0:
+        print('iiii', i, 'aaaa')
+    elif i >= 1 and i <= 1:
+        print('sss', i,'sss')
+    else:
+        print('ddd')
+
+
+wtf = False
+if not wtf:
+   print('Перевертыш')
+elif wtf:
+    print("не перевертышь")
+
 
