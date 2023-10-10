@@ -135,4 +135,26 @@ if not wtf:
 elif wtf:
     print("не перевертышь")
 
+a =6
+b = False
+c = 16
+if not b or a <= 4 and c > 22:
+    print('yes')
+else:
+    print('No')
 
+a =6
+b = False
+c = 16
+if (not b or a <= 4) and c > 22:
+    print('yes')
+else:
+    print('No')
+
+if not b or a <= 4 and c > 22:
+    print('yes')
+else:
+    print('No')
+
+a = not True
+print(a)
