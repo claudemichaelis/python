@@ -158,3 +158,59 @@ else:
 
 a = not True
 print(a)
+
+milk = not True
+cereals = True
+eggs = False
+if milk and cereals or eggs:
+    if eggs:
+        if milk:
+            breakfast = "- омлет"
+        else:
+            breakfast = "- яичница"
+    else:
+        breakfast = "- хлопья с молоком"
+else:
+    if milk:
+        breakfast = "- стакан молока"
+    elif cereals:
+        breakfast = "можно погрызть c сухих хлопьев"
+    else:
+        breakfast = "ничего не будет: разгрузочный день"
+
+print("Сегодня на завтрак", breakfast)
+
+# Объявление функции hello()
+def hello(n, f):
+    # А здесь началось тело функции
+    print(n, 'Приветствую тебя, джедай Питона!', f)
+hello('Go,','gororo')
+
+def a(b,c):
+    print(b, c, 'человек паук')
+a('mails','moralis')
+
+def a(d):
+    if d >= 1 and d <= 3:
+        print('Первое', d)
+    elif d < 3 or d < 5:
+        print('второе', d)
+    else:
+        print('ничего', d)
+a(2)
+a(10)
+a(-1909)
+
+def a(b):
+    if b == 0:
+        print('один', b)
+    elif b == 1:
+        print('два', b)
+    elif b >= 2 and b <= 4:
+        print('три', b)
+    elif b >= 5 and b < 20:
+        print('четыре', b)
+    else:
+        print('пять', b)
+for b in range(0,21):
+    a(b)
